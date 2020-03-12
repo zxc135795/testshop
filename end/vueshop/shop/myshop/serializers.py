@@ -44,6 +44,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class ShoeTimeSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = ShoeTime
         fields = "__all__"

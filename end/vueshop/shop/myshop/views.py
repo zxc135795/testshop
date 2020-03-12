@@ -54,3 +54,5 @@ class YoutherviewSets(viewsets.ModelViewSet):
 class UserViewSets(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
+
+# def carts()

@@ -12,6 +12,7 @@ class ToImg(models.Model):
     def __str__(self):
         return self.img
 
+# class Cart(models.Model):
 
 class Category(models.Model):
     """
